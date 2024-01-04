@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private let createButton: UIButton = {
+        let button = UIButton()
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
